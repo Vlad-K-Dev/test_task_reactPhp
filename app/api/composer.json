@@ -1,0 +1,21 @@
+{
+    "name": "vlad/api",
+    "description": "back-end test task",
+    "type": "project",
+    "require": {
+        "alcaeus/mongo-php-adapter": "^1.1",
+        "ext-mongodb": "*",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Vladislav Kroshkin",
+            "email": "vkroshkin88@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    }
+}
